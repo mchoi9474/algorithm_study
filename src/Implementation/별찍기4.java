@@ -10,12 +10,9 @@ public class º°Âï±â4 {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		for(int row = N; row > 0; row --) {
-		
-				for(int i = N; i > row; i--) {
-					System.out.printf(" ");
-				}
-
-
+			for(int i = N; i > row; i--) {
+				System.out.printf(" ");
+			}
 			for(int col = row; col > 0; col--) {
 				System.out.printf("*");
 			}
